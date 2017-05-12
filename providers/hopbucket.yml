@@ -1,0 +1,10 @@
+---
+- provider_name: HopBucket
+  provider_url: https://www.hopbucket.com
+  endpoints:
+  - url: https://www.hopbucket.com/oembed
+    discovery: true
+    example_urls:
+    - http://www.hopbucket.com/oembed?url=https%3A%2F%2Fhopbucket.com%2Fembed%2FkALT7Cjwkg
+    notes: Provider only supports the 'rich' type
+...
